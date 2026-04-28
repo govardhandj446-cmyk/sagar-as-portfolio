@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Assessment | Govardhan V Agadi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="header">
+      <div class="brand">Lab Assessment</div>
+      <nav class="nav-list">
+        <a href="index.html">Home</a>
+        <a href="data.html">Data</a>
+        <a href="probability.html">Probability</a>
+        <a href="random-variable.html">Random Variable</a>
+        <a href="inference.html">Inference</a>
+        <a href="correlation.html">Correlation</a>
+        <a href="lab.html">Lab</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>Python Lab Implementations</h2>
+        <p>Selected Python examples from lab assignments demonstrate how statistical concepts are implemented with code.</p>
+      </section>
+
+      <section class="section">
+        <h2>Example 1: Summary Statistics</h2>
+        <pre class="code-block">import numpy as np
+import matplotlib.pyplot as plt
+
+data = [75,89,66,52,90,68,83,94,77,60]
+mean = np.mean(data)
+median = np.median(data)
+std_dev = np.std(data)
+print("Mean:", mean)
+print("Median:", median)
+print("Standard Deviation:", std_dev)
+plt.hist(data, bins=5)
+plt.title("Histogram")
+plt.show()</pre>
+      </section>
+
+      <section class="section">
+        <h2>Example 2: Probability with Cards</h2>
+        <pre class="code-block">total_cards = 52
+queens = 4
+hearts = 13
+queen_of_heart = 1
+f_outcome = queens + hearts - queen_of_heart
+probability = f_outcome / total_cards
+print("Probability of queen or heart:", probability)</pre>
+      </section>
+
+      <section class="section">
+        <h2>Example 3: Distribution Functions</h2>
+        <p>Python is used to compute probability distributions, cumulative values, and visualize outcomes using plots.</p>
+      </section>
+
+      <section class="section">
+        <h2>Learning Outcomes</h2>
+        <ul class="section-list">
+          <li>Translate theoretical concepts into working code.</li>
+          <li>Use NumPy and Matplotlib for analysis and visualization.</li>
+          <li>Interpret statistics output from Python programs.</li>
+          <li>Build repeatable lab work for classroom and practical assignments.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">Practical lab examples applying theory through Python.</footer>
+  </div>
+</body>
+</html>
