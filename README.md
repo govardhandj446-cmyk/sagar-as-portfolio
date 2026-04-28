@@ -1,16 +1,16 @@
-# Govardhan V Agadi - Applied Statistics Portfolio
+# Sagar - Applied Statistics Portfolio
 
 A modern portfolio site for the Applied Statistics course, built with responsive HTML and CSS.
 
 ## Pages
-- `index.html` — Home overview
-- `data.html` — Description of the Data
-- `probability.html` — Probability concepts
-- `random-variable.html` — Random Variables and Distributions
-- `inference.html` — Statistical Inference I
-- `correlation.html` — Correlation and Regression
-- `lab.html` — Python Lab Assessments
-- `about.html` — About the student
+- `index.html` ï¿½ Home overview
+- `data.html` ï¿½ Description of the Data
+- `probability.html` ï¿½ Probability concepts
+- `random-variable.html` ï¿½ Random Variables and Distributions
+- `inference.html` ï¿½ Statistical Inference I
+- `correlation.html` ï¿½ Correlation and Regression
+- `lab.html` ï¿½ Python Lab Assessments
+- `about.html` ï¿½ About the student
 
 ## Technologies
 - HTML
